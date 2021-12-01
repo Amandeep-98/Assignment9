@@ -1,0 +1,43 @@
+.content-wrap{
+	padding: 2% 6%; 
+}
+.button-group{
+	padding:1em 0px;
+}
+table, tr,th,td{
+	border-collapse: collapse;
+}
+.active{
+	background-color: yellow;
+}
+.search-wrap{
+	padding: 1em 0px;
+}
+
+th{
+	position: relative;
+	min-width: 90px;
+}
+
+.asc:before {
+    content: "↑";
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.desc:before {
+    content: "↑";
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
